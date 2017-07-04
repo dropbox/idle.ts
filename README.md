@@ -7,7 +7,7 @@ The library also offers smart batching with optiomal balance between accuracy an
 Or copy idle.ts (for typescript) or idle.js (for javascript) to your location
 
 ## Testing 
-Use attached jasmine file for testing. Add this to your site and browse to using jasmine framework
+Use attached Jasmine file for testing.
 
 ## Usage
 Start listening to user activity by calling 
