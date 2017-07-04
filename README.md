@@ -3,7 +3,8 @@ idle.ts is a small typescript / javascript lib that helps you indicate whether a
 The library also offers smart batching with optiomal balance between accuracy and effiency.
 
 ## Install 
-npm install idle.ts
+`npm install idle.ts`
+Or copy idle.ts (for typescript) or idle.js (for javascript) to your location
 
 ## Testing 
 Use attached jasmine file for testing. Add this to your site and browse to using jasmine framework
