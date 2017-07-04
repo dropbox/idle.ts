@@ -13,7 +13,7 @@ Start listening to user activity by calling
 `let idle = Idle(...)`
 ### Provide the following parameters to Idle(...) constructor:
  - `activityReportInSec?: number;` The number of seconds interval a report about user activity is sent.
- - `activityReportMode?: ReportMode` see smart batching 
+ - `activityReportMode?: ReportMode` see [Smart Batching](https://github.com/dropbox/idle.ts/#smart-batching)
  - `detectFramesInSec?: number;` Frames can be added dynamicaly after the page was already created. If the page you inpect creates frames after loaded set the interval time, in which the dicovery frames code may run. By default, it only runs once the page is loaded
  - `onActivity?: ()=>void;` a event called when a user is starting to be active after being idle
  - `onEnterFrame?: ()=>void;` a event called when a user enters a frame and listener can't listen to any page event
