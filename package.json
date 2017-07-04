@@ -1,10 +1,10 @@
 {
   "name": "idle.ts",
   "version": "1.0.0",
-  "description": "Indicates wether the user is active or idle",
+  "description": "Indicates whether the user is active or idle",
   "main": "idle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Add jasmine test file to your site and run tests from browser\" && exit 1"
   },
   "repository": {
     "type": "git",
