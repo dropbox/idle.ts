@@ -1,0 +1,31 @@
+{
+  "name": "idle.ts",
+  "version": "1.0.0",
+  "description": "Indicates wether the user is active or idle",
+  "main": "idle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropbox/idle.ts.git"
+  },
+  "keywords": [
+    "idle",
+    "active",
+    "afk",
+    "typescript",
+    "session",
+    "expires"
+  ],
+  "author": "Alon Kiriati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropbox/idle.ts/issues"
+  },
+  "homepage": "https://github.com/dropbox/idle.ts#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "jasmine": "^2.6.0"
+  }
+}
