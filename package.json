@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dropbox/idle.ts/issues"
   },
-  "homepage": "https://github.com/dropbox/idle.ts#readme"
+  "homepage": "https://github.com/dropbox/idle.ts#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "jasmine": "^2.6.0"
+  }
 }
