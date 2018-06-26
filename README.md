@@ -1,6 +1,6 @@
 # idle.ts  :running: -> :sleeping: -> :running: -> :running: -> :sleeping:
 idle.ts is a small typescript / javascript lib that helps you indicate whether a user is active or idle. You can use this to get events about the user activitness, and create your own actions - log activity, sign idle users out, show warning modal, etc. 
-The library also offers smart batching with optiomal balance between accuracy and effiency.
+The library also offers smart batching with optimal balance between accuracy and effiency.
 
 ## Install 
 `npm install idle.ts`
@@ -50,7 +50,7 @@ User makes an operation and closes the browser before 5 minutes elapsed and cook
 2. User opens a page.
 3. User is inactive for 15 minutes.
 4. User makes an operation and closes the page.
-5. 30 minutes elapsed and user is kicked out, despite of his activity.
+5. 30 minutes elapsed and user is kicked out, despite of their activity.
 
 ##### Scenario B:
 
