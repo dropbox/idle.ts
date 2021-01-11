@@ -24,7 +24,7 @@ Start listening to user activity by calling
 ## Smart Batching 
 ### Batch Events in order to reduce load
 
-In order to reduce load on the server we don’t want to call the refresh cookie url, upon every event that we catch. We should check if the user made an activity over X minutes, and call the endpoint if he was active. So how do we set this X interval to the optimal time?
+In order to reduce load on the server we don’t want to call the refresh cookie url, upon every event that we catch. We should check if the user made an activity over X minutes, and call the endpoint if they were active. So how do we set this X interval to the optimal time?
 
 - If we make it to long - we can lose events. A user can be active and close the browser /  disconnect from the internet, before activity report was sent
 - If we make it too short we can overload the server
